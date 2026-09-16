@@ -1,56 +1,156 @@
-# Welcome to your Expo app 👋
+# 📱 SynerRH Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![SynerRH Mobile](https://i.postimg.cc/KYnZp6FM/imagem-Syner-RH-mobile.png)
 
-## Get started
+## 💜 Sobre o projeto
 
-1. Install dependencies
+O **SynerRH Mobile** é a versão mobile do projeto SynerRH, um sistema de gestão e desenvolvimento de pessoas.
 
-   ```bash
-   npm install
-   ```
+Depois de desenvolver a versão web do SynerRH, surgiu a ideia de levar a experiência também para dispositivos móveis. O projeto se tornou uma oportunidade de aprender e colocar em prática o desenvolvimento com **React Native e Expo**, criando meu primeiro aplicativo mobile.
 
-2. Start the app
+A proposta é reunir informações importantes sobre colaboradores, avaliações, desenvolvimento e feedbacks em uma experiência simples e acessível pelo celular.
 
-   ```bash
-   npx expo start
-   ```
+🌐 **Projeto online:**  
+https://synerrh-mobile.onrender.com
 
-In the output, you'll find options to open the app in a
+💻 **Versão Web do SynerRH:**  
+https://synerrh-frontend.onrender.com/
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## ✨ Funcionalidades
 
-## Get a fresh project
+O aplicativo conta atualmente com:
 
-When you're ready, run:
+- 🔐 Login e cadastro de usuário
+- 👤 Minha Conta com visualização e edição de dados
+- 👥 Listagem e pesquisa de colaboradores
+- 🔎 Perfil individual dos colaboradores
+- 📝 Avaliações de desempenho
+- 🎯 PDI — Plano de Desenvolvimento Individual
+- 💬 Feedbacks
+- 📅 Cronograma
+- 🤖 People Insights
+- 📊 Indicadores de desempenho e participação
+- 💾 Persistência de sessão
+- 🌐 Integração com a API do SynerRH
+- 📱 Interface desenvolvida para experiência mobile
+
+---
+
+## 🛠️ Tecnologias
+
+O projeto foi desenvolvido utilizando:
+
+- **React Native**
+- **Expo**
+- **Expo Router**
+- **TypeScript**
+- **AsyncStorage**
+- **API REST**
+- **Git e GitHub**
+
+A versão web demonstrativa do aplicativo é gerada pelo Expo e publicada no **Render**.
+
+---
+
+## 🚀 Desafios e aprendizados
+
+Por ser meu primeiro projeto mobile, o desenvolvimento do SynerRH Mobile trouxe novos desafios e bastante aprendizado.
+
+Durante o projeto trabalhei principalmente com:
+
+- Estruturação de um projeto React Native
+- Navegação entre telas
+- Rotas dinâmicas
+- Integração com API
+- Gerenciamento de sessão
+- Armazenamento local
+- Carregamento e tratamento de dados
+- Adaptação da interface para dispositivos móveis
+- Testes utilizando Expo Go
+- Correção de problemas de navegação e carregamento
+- Publicação de uma versão web para demonstração
+
+Mais do que apenas transformar uma interface web em mobile, o projeto foi uma oportunidade de entender diferenças de navegação, estrutura e experiência entre as duas plataformas.
+
+---
+
+## 📲 Executando o projeto
+
+### Pré-requisitos
+
+Tenha instalado:
+
+- Node.js
+- npm
+- Expo Go, caso queira testar em um dispositivo móvel
+
+### Clone o repositório
 
 ```bash
-npm run reset-project
+git clone https://github.com/nataliapastre-dev/SynerRH-Mobile.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Entre na pasta
 
-### Other setup steps
+```bash
+cd SynerRH-Mobile
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### Instale as dependências
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### Inicie o projeto
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
+Depois, utilize o **Expo Go** para ler o QR Code e executar o aplicativo no celular.
 
-Join our community of developers creating universal apps.
+Também é possível executar a versão web pelo ambiente do Expo.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🌐 Demonstração online
+
+Para facilitar a visualização do projeto sem necessidade de instalar o Expo Go:
+
+👉 **https://synerrh-mobile.onrender.com**
+
+> A primeira inicialização ou algumas consultas podem levar alguns segundos devido à hospedagem dos serviços utilizados pelo projeto.
+
+---
+
+## 💻 Projeto original — SynerRH Web
+
+O SynerRH Mobile nasceu como uma evolução do projeto **SynerRH Web**.
+
+🌐 **Aplicação Web:**  
+https://synerrh-frontend.onrender.com/
+
+O objetivo foi explorar como uma solução de gestão de pessoas desenvolvida para web poderia evoluir para uma experiência mobile utilizando React Native.
+
+---
+
+## 👩‍💻 Desenvolvido por
+
+**Natália Pastre**
+
+Desenvolvimento de Software | React | React Native | TypeScript
+
+GitHub:  
+https://github.com/nataliapastre-dev
+
+LinkedIn:  
+https://www.linkedin.com/in/nataliapastre-dev/
+
+---
+
+### 💜 SynerRH
+
+**Pessoas no centro. Tecnologia como aliada.**
